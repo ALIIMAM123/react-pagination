@@ -1,0 +1,116 @@
+*,
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.main-container {
+  background-color: rgb(195, 177, 225);
+  min-height: 100vh;
+  padding: 20px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+.wrapper-container {
+  background-color: white;
+  min-height: 100%;
+  max-height: 70vh;
+  margin-bottom: 30px;
+  padding: 10px;
+  overflow-y: scroll;
+}
+.page-no-container {
+  background-color: white;
+  color: rgb(195, 177, 225);
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-end;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+}
+.page-no-wrapper {
+  display: flex;
+  justify-self: space-between;
+  gap: 10px;
+}
+.btn {
+  background-color: rgb(195, 177, 225);
+  color: white;
+  padding: 7px 20px;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: rgba(66, 27, 105, 0.5);
+  cursor: pointer;
+}
+.wrapper-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.name-wrapper-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  background-color: rgb(195, 177, 225);
+  padding: 12px;
+  border-radius: 15px;
+  opacity: 0.71;
+}
+.section {
+  display: flex;
+}
+.name-wrapper-container:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.totalCount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: rgb(195, 177, 225);
+  padding: 4px 10px;
+}
+.span-count {
+  color: rgba(66, 27, 105);
+  background-color: rgb(208, 187, 241);
+  border-radius: 50%;
+  padding: 8px 8px;
+  margin-left: 13px;
+}
+.user-detail-text {
+  text-align: center;
+  color: rgb(148, 126, 184);
+  /* font-size: 20px; */
+}
+.disable-btn {
+  cursor: not-allowed;
+  background-color: rgb(148, 126, 184);
+  pointer-events: none;
+  opacity: 0.4;
+}
+.disable-btn:hover {
+  background-color: rgb(148, 126, 184);
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.4;
+}
+.detail-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.right-section {
+  margin-top: 20px;
+}
